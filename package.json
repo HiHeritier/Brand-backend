@@ -37,5 +37,6 @@
     "jest": "^28.0.0",
     "mocha": "^9.2.2",
     "nodemon": "*"
-  }
+  },
+  "proxy": "http://localhost:3000"
 }
