@@ -11,6 +11,14 @@ const { path } = require("../app");
 chai.use(chaiHttp);
 
 
+var token ="";
+function token() {
+  token = window.localStorage.getItem(TOKEN);
+  if (token) {
+     useCredentials(token);
+   }
+}
+
 
 
 //-----------------------------------
